@@ -1,12 +1,20 @@
 #!/usr/bin/env python
 
 import inkex
+import simplepath
+from lxml import etree
 
 from simplestyle import *
 
 class HelloWorldEffect(inkex.Effect):
+	def __init__(self):
+		inkex.Effect.__init__(self)
 	def effect(self):
-		inkex.debug("hello")
+		
+		for id, node in self.selected.iteritems():
+			if node.tag == inkex.addNS('path','svg'):
+				d = node.get('d')
+				inkex.debug(d)
 	
 
 # Create effect instance and apply it.
