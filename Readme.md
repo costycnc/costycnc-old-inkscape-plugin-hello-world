@@ -11,3 +11,11 @@ put file inx and py in inkscape\data\settings\extensions ... create folder exten
 ![alt text](https://github.com/costycnc/costycnc-inkscape-plugin-hello-world/blob/master/Untitled.jpg)
 
 ![alt text](https://github.com/costycnc/costycnc-inkscape-plugin-hello-world/blob/master/menu.jpg)
+
+if you want make test with inkscape plugin ... keep in mind to transform space to tab first to save 
+
+i use notepad++
+
+![alt text](https://github.com/costycnc/costycnc-inkscape-plugin-hello-world/blob/master/spacetab.jpg)
+
+
