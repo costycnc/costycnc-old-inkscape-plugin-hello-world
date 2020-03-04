@@ -18,4 +18,6 @@ i use notepad++
 
 ![alt text](https://github.com/costycnc/costycnc-inkscape-plugin-hello-world/blob/master/spacetab.jpg)
 
+Because plugin accept only tab ascii (tab=value 09)  ... but notepad++ put 4 spaces (space =value 20)... and not compile... give a error!
+
 
