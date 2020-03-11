@@ -36,7 +36,7 @@ class MyEffect(inkex.Effect):
 					first = False
 						
 					np.append([cmd,[csp[1][0],csp[1][1]]])
-					gcode += "G01 X" +str(csp[1][0]) + " Y" + str(csp[1][1]) + "\n"
+					gcode += "G01 X" +str(round(self.uutounit(csp[1][0],"mm" ),2)) + " Y" + str(round(self.uutounit(csp[1][1],"mm" ),2)) + "\n"
 					node.set('d',simplepath.formatPath(np))
 				f = open("costycnc.nc", 'w')
 				f.write(str(gcode))
