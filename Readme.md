@@ -1,5 +1,7 @@
 hello folder contain small examples
 
+plugin inkscape for costycnc https://drive.google.com/drive/folders/1RhYQDsAShQVpIKa1iB_uJLyNemN5EMN0?usp=sharing
+
 costycnc-inkscape first commit is inspired by https://github.com/jwcliff/Inkscape_Exportxy
         
 my cnc www.costycnc.it
