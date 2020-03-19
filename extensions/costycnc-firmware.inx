@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+   <_name>Firmware</_name>
+   <id>org.firmware</id>
+
+
+       <dependency type="executable" location="extensions">costycnc-firmware.py</dependency>
+       <dependency type="executable" location="extensions">inkex.py</dependency>
+
+	   	<param name="boot" type="optiongroup" _gui-text="Select option :">
+		<_option value="boot-new">New bootloader</_option>	
+		<_option value="boot-old">Old bootloader</_option>
+        </param>
+
+
+   <effect>
+               <object-type>path</object-type>
+                <effects-menu>
+                    <submenu _name="Costycnc"/>
+                </effects-menu>
+   </effect>
+   <script>
+       <command reldir="extensions" interpreter="python">costycnc-firmware.py</command>
+   </script>
+</inkscape-extension>
