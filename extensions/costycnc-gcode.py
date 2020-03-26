@@ -21,7 +21,7 @@ class MyEffect(inkex.Effect):
 	def __init__(self):
 		inkex.Effect.__init__(self)
 		self.OptionParser.add_option("-t", "--setup", action="store", type="string",
-									 dest="setup", default="new", help=("Settings"))
+									 dest="setup", default="left", help=("Settings"))
 		self.OptionParser.add_option("-f", "--flatness",
 						action="store", type="int", 
 						dest="flat", default=1,
