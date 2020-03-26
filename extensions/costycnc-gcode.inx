@@ -9,10 +9,7 @@
 
 	   	<param name="setup" type="optiongroup" _gui-text="Select option :">
 		<_option value="up">up</_option>	
-		<_option value="down">down</_option>
-		<_option value="left">left</_option>
-		<_option value="right">right</_option>
-		<_option value="manual">manual</_option>	
+	
         </param>
 
        <param name="flatness" type="int" min="1" max="1000.0" _gui-text="Flatness:">1</param>
