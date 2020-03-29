@@ -150,7 +150,7 @@ class GrblSerial(object):
 				self.write(cmd)
 				response = self.readline()
 				nRetryCount = 0
-				while (len(response) == 0) and (nRetryCount < 30):
+				while (len(response) == 0) and (nRetryCount < 100): #29.03.20
 					# get new response to replace null response if necessary
 					response = self.readline()
 					nRetryCount += 1

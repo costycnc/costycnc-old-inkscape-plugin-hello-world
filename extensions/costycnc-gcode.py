@@ -21,6 +21,7 @@ class MyEffect(inkex.Effect):
 	
 		for id, node in self.selected.iteritems():
 			#inkex.debug(node.get('id'))
+			node.set('transform','translate(0,0)')#29.03.20
 			
 			if node.tag == inkex.addNS('path','svg'):
 				first = True
