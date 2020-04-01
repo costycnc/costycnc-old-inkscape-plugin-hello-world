@@ -8,9 +8,9 @@
        <dependency type="executable" location="extensions">inkex.py</dependency>
 
 	   	<param name="setup" type="optiongroup" _gui-text="Select option :">
-		<_option value="new">New parameters</_option>	
-		<_option value="old">Old parameters</_option>
-		<_option value="verify">Verify</_option>
+		<_option value="new">New parameters (nuovi parametri)</_option>	
+		<_option value="old">Old parameters (vecchi parametri)</_option>
+		<_option value="verify">Verify (controlla)</_option>
         </param>
 
 
