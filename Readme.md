@@ -8,9 +8,11 @@ my cnc www.costycnc.it
 
 facebook , google , ecc ... search "costycnc" for all my projects
 
-put file inx and py in inkscape\data\settings\extensions ... create folder extensions if not exist
+Download all files and folders ... and put folder extensions in Inkscape
 
 ![alt text](https://github.com/costycnc/costycnc-inkscape-plugin-hello-world/blob/master/extension.jpg)
+
+put file inx and py in inkscape\data\settings\extensions ... create folder extensions if not exist
 
 ![alt text](https://github.com/costycnc/costycnc-inkscape-plugin-hello-world/blob/master/untitled.jpg)
 
